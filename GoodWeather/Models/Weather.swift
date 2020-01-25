@@ -9,7 +9,7 @@
 import Foundation
 
 // API JSON Data
-struct WeatherData: Decodable {
+struct WeatherResponse: Decodable {
   let main: Weather
 }
 
